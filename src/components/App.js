@@ -284,11 +284,11 @@ function App() {
       <div id="state-description">{selectedState.description}</div>
 
       {/* Selected City Info */}
-      <div id="city-name">{selectedCity.name}</div>
+      <div id="city-title">{selectedCity.name}</div>
       <div id="city-description">{selectedCity.description}</div>
 
       {/* Selected Landmark Info */}
-      <div id="landmark-name">{selectedLandmark.name}</div>
+      <div id="landmark-title">{selectedLandmark.name}</div>
       <div id="landmark-description">{selectedLandmark.description}</div>
     </div>
   );
